@@ -40,7 +40,7 @@ const CheckoutPage = ({ cartItems, total }) => (
     {cartItems.map(cartItem => (
       <CheckoutItem key={cartItem.id} cartItem={cartItem} />
     ))}
-    <TotalContainer>Общо: {total}лв.</TotalContainer>
+    <TotalContainer>TOTAL: ${total}</TotalContainer>
     <WarningContainer>
       *Please use the following test credit card for payments*
       <br />
